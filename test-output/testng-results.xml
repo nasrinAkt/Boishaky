@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-03T02:18:17 EDT" name="Default suite" finished-at="2023-10-03T02:18:26 EDT" duration-ms="8869">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Boishaky_TestRunner.Boishaky_TestRunner@4e5ed836]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-10-03T02:18:17 EDT" name="Default test" finished-at="2023-10-03T02:18:26 EDT" duration-ms="8869">
+      <class name="Boishaky_TestRunner.Boishaky_TestRunner">
+        <test-method is-config="true" signature="boisStartURL()[pri:0, instance:Boishaky_TestRunner.Boishaky_TestRunner@4e5ed836]" started-at="2023-10-03T02:18:17 EDT" name="boisStartURL" finished-at="2023-10-03T02:18:20 EDT" duration-ms="2226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boisStartURL -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Boishaky_TestRunner.Boishaky_TestRunner@4e5ed836]" started-at="2023-10-03T02:18:20 EDT" name="setUpClass" finished-at="2023-10-03T02:18:20 EDT" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Boishaky_TestRunner.Boishaky_TestRunner@4e5ed836]" started-at="2023-10-03T02:18:20 EDT" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2023-10-03T02:18:26 EDT" duration-ms="6106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This is a feature for scroll down functionality]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Boishaky_TestRunner.Boishaky_TestRunner@4e5ed836]" started-at="2023-10-03T02:18:26 EDT" name="tearDownClass" finished-at="2023-10-03T02:18:26 EDT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="boisCloseURL()[pri:0, instance:Boishaky_TestRunner.Boishaky_TestRunner@4e5ed836]" started-at="2023-10-03T02:18:26 EDT" name="boisCloseURL" finished-at="2023-10-03T02:18:26 EDT" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boisCloseURL -->
+      </class> <!-- Boishaky_TestRunner.Boishaky_TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
